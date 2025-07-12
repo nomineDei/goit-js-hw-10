@@ -1,0 +1,87 @@
+.form {
+  margin: 0 auto;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.form-input {
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: none;
+}
+.fieldset {
+  margin: 0;
+  padding: 28px 28px 8px 28px;
+  width: 304px;
+  height: 42px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldset label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6c8cff;
+}
+
+.form-input:hover {
+  border: 1px solid #000;
+}
+
+.form-input:focus {
+  border: 1px solid #4e75ff;
+}
+
+.fieldset:hover,
+.fieldset:focus {
+  border: 1px solid #000;
+}
+
+.fieldset input {
+  accent-color: #4e75ff;
+}
